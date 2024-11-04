@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/opencontainers/runc/libcontainer/system"
+	"github.com/Loupric/runc/system"
 )
 
 func newRestoredProcess(pid int, fds []string) (*restoredProcess, error) {

@@ -12,8 +12,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/docker/docker/pkg/mount"
-	"github.com/docker/docker/pkg/units"
+	"github.com/moby/moby/volume/mounts"
+	"github.com/docker/go-units"
 )
 
 const cgroupNamePrefix = "name="

@@ -9,9 +9,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/opencontainers/runc/libcontainer/cgroups"
-	"github.com/opencontainers/runc/libcontainer/configs"
-	"github.com/opencontainers/runc/libcontainer/system"
+	"github.com/Loupric/runc/cgroups"
+	"github.com/Loupric/runc/configs"
+	"github.com/Loupric/runc/system"
 )
 
 const (

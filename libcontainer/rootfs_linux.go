@@ -13,10 +13,10 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/docker/docker/pkg/symlink"
-	"github.com/opencontainers/runc/libcontainer/cgroups"
-	"github.com/opencontainers/runc/libcontainer/configs"
-	"github.com/opencontainers/runc/libcontainer/label"
+	"github.com/moby/sys/symlink"
+	"github.com/Loupric/runc/cgroups"
+	"github.com/Loupric/runc/configs"
+	"github.com/Loupric/runc/label"
 )
 
 const defaultMountFlags = syscall.MS_NOEXEC | syscall.MS_NOSUID | syscall.MS_NODEV

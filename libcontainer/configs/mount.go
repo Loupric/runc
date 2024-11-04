@@ -5,7 +5,7 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/opencontainers/runc/libcontainer/label"
+	"github.com/Loupric/runc/label"
 )
 
 type Mount struct {

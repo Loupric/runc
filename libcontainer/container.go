@@ -7,7 +7,7 @@ package libcontainer
 import (
 	"os"
 
-	"github.com/opencontainers/runc/libcontainer/configs"
+	"github.com/Loupric/runc/configs"
 )
 
 // The status of a container.

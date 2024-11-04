@@ -2,4 +2,4 @@
 
 package main
 
-import _ "github.com/opencontainers/runc/libcontainer/nsenter"
+import _ "github.com/Loupric/runc/nsenter"

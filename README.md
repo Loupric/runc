@@ -13,7 +13,7 @@ the spec is finalized.  However, we encourage you to try out the tool and give f
 
 How does `runc` integrate with the Open Container Initiative Specification?
 `runc` depends on the types specified in the
-[specs](https://github.com/opencontainers/specs) repository. Whenever the
+[specs](https://github.com/opencontainers/runtime-spec/specs-go) repository. Whenever the
 specification is updated and ready to be versioned `runc` will update its dependency
 on the specs repository and support the update spec.
 
@@ -24,7 +24,7 @@ At the time of writing, runc only builds on the Linux platform.
 ```bash
 # create a 'github.com/opencontainers' in your GOPATH/src
 cd github.com/opencontainers
-git clone https://github.com/opencontainers/runc
+git clone https://github.com/Loupric/runc
 cd runc
 make
 sudo make install

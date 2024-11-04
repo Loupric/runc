@@ -10,7 +10,7 @@ import (
 	"path/filepath"
 	"syscall"
 
-	"github.com/opencontainers/runc/libcontainer/configs"
+	"github.com/Loupric/runc/configs"
 )
 
 var (

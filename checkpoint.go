@@ -7,8 +7,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/codegangsta/cli"
-	"github.com/opencontainers/runc/libcontainer"
+	"github.com/urfave/cli"
+	"github.com/Loupric/runc"
 )
 
 var checkpointCommand = cli.Command{

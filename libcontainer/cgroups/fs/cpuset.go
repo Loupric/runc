@@ -9,8 +9,8 @@ import (
 	"path/filepath"
 	"strconv"
 
-	"github.com/opencontainers/runc/libcontainer/cgroups"
-	"github.com/opencontainers/runc/libcontainer/configs"
+	"github.com/Loupric/runc/cgroups"
+	"github.com/Loupric/runc/configs"
 )
 
 type CpusetGroup struct {

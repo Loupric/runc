@@ -1,5 +1,5 @@
 RUNC_TEST_IMAGE=runc_test
-PROJECT=github.com/opencontainers/runc
+PROJECT=github.com/Loupric/runc
 TEST_DOCKERFILE=script/test_Dockerfile
 BUILDTAGS=seccomp
 export GOPATH:=$(CURDIR)/Godeps/_workspace:$(GOPATH)

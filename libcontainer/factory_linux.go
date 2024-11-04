@@ -13,12 +13,12 @@ import (
 	"strconv"
 	"syscall"
 
-	"github.com/docker/docker/pkg/mount"
-	"github.com/opencontainers/runc/libcontainer/cgroups"
-	"github.com/opencontainers/runc/libcontainer/cgroups/fs"
-	"github.com/opencontainers/runc/libcontainer/cgroups/systemd"
-	"github.com/opencontainers/runc/libcontainer/configs"
-	"github.com/opencontainers/runc/libcontainer/configs/validate"
+	"github.com/moby/moby/volume/mounts"
+	"github.com/Loupric/runc/cgroups"
+	"github.com/Loupric/runc/cgroups/fs"
+	"github.com/Loupric/runc/cgroups/systemd"
+	"github.com/Loupric/runc/configs"
+	"github.com/Loupric/runc/configs/validate"
 )
 
 const (

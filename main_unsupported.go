@@ -3,8 +3,8 @@
 package main
 
 import (
-	"github.com/Sirupsen/logrus"
-	"github.com/codegangsta/cli"
+	"github.com/sirupsen/logrus"
+	"github.com/urfave/cli"
 )
 
 func getDefaultID() string {

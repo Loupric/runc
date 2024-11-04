@@ -5,7 +5,7 @@ package cgroups
 import (
 	"fmt"
 
-	"github.com/opencontainers/runc/libcontainer/configs"
+	"github.com/Loupric/runc/configs"
 )
 
 type Manager interface {

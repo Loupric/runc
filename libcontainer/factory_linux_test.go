@@ -10,8 +10,8 @@ import (
 	"syscall"
 	"testing"
 
-	"github.com/docker/docker/pkg/mount"
-	"github.com/opencontainers/runc/libcontainer/configs"
+	"github.com/moby/moby/volume/mounts"
+	"github.com/Loupric/runc/configs"
 )
 
 func newTestRoot() (string, error) {

@@ -10,8 +10,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/opencontainers/runc/libcontainer/configs"
-	"github.com/opencontainers/runc/libcontainer/utils"
+	"github.com/Loupric/runc/configs"
+	"github.com/Loupric/runc/utils"
 	"github.com/vishvananda/netlink"
 )
 

@@ -12,12 +12,12 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/Sirupsen/logrus"
-	"github.com/codegangsta/cli"
-	"github.com/opencontainers/runc/libcontainer/cgroups"
-	"github.com/opencontainers/runc/libcontainer/configs"
-	"github.com/opencontainers/runc/libcontainer/seccomp"
-	"github.com/opencontainers/specs"
+	"github.com/sirupsen/logrus"
+	"github.com/urfave/cli"
+	"github.com/Loupric/runc/cgroups"
+	"github.com/Loupric/runc/configs"
+	"github.com/Loupric/runc/seccomp"
+	"github.com/opencontainers/runtime-spec/specs-go"
 )
 
 var specCommand = cli.Command{

@@ -5,7 +5,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/opencontainers/runc/libcontainer/configs"
+	"github.com/Loupric/runc/configs"
 )
 
 type Validator interface {

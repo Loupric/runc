@@ -12,12 +12,12 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/Sirupsen/logrus"
-	"github.com/opencontainers/runc/libcontainer/cgroups"
-	"github.com/opencontainers/runc/libcontainer/configs"
-	"github.com/opencontainers/runc/libcontainer/system"
-	"github.com/opencontainers/runc/libcontainer/user"
-	"github.com/opencontainers/runc/libcontainer/utils"
+	"github.com/sirupsen/logrus"
+	"github.com/Loupric/runc/cgroups"
+	"github.com/Loupric/runc/configs"
+	"github.com/Loupric/runc/system"
+	"github.com/Loupric/runc/user"
+	"github.com/Loupric/runc/utils"
 	"github.com/vishvananda/netlink"
 )
 

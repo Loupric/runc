@@ -7,11 +7,11 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/Sirupsen/logrus"
-	"github.com/codegangsta/cli"
-	"github.com/opencontainers/runc/libcontainer"
-	"github.com/opencontainers/runc/libcontainer/configs"
-	"github.com/opencontainers/specs"
+	"github.com/sirupsen/logrus"
+	"github.com/urfave/cli"
+	"github.com/Loupric/runc"
+	"github.com/Loupric/runc/configs"
+	"github.com/opencontainers/runtime-spec/specs-go"
 )
 
 var restoreCommand = cli.Command{

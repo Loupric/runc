@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/opencontainers/runc/libcontainer/cgroups"
+	"github.com/Loupric/runc/cgroups"
 )
 
 func TestCpuSetShares(t *testing.T) {

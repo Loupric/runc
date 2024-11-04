@@ -3,7 +3,7 @@ package seccomp
 import (
 	"fmt"
 
-	"github.com/opencontainers/runc/libcontainer/configs"
+	"github.com/Loupric/runc/configs"
 )
 
 // ConvertStringToOperator converts a string into a Seccomp comparison operator.

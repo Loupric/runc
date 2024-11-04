@@ -7,7 +7,7 @@ import (
 	"log"
 	"syscall"
 
-	"github.com/opencontainers/runc/libcontainer/configs"
+	"github.com/Loupric/runc/configs"
 	libseccomp "github.com/seccomp/libseccomp-golang"
 )
 

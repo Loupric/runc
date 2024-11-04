@@ -8,9 +8,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Sirupsen/logrus"
-	"github.com/codegangsta/cli"
-	"github.com/opencontainers/runc/libcontainer"
+	"github.com/sirupsen/logrus"
+	"github.com/urfave/cli"
+	"github.com/Loupric/runc"
 )
 
 // event struct for encoding the event data to json.

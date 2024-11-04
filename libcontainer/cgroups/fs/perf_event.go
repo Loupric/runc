@@ -3,8 +3,8 @@
 package fs
 
 import (
-	"github.com/opencontainers/runc/libcontainer/cgroups"
-	"github.com/opencontainers/runc/libcontainer/configs"
+	"github.com/Loupric/runc/cgroups"
+	"github.com/Loupric/runc/configs"
 )
 
 type PerfEventGroup struct {

@@ -8,10 +8,10 @@ import (
 	"runtime"
 	"strconv"
 
-	"github.com/Sirupsen/logrus"
-	"github.com/codegangsta/cli"
-	"github.com/opencontainers/runc/libcontainer"
-	"github.com/opencontainers/specs"
+	"github.com/sirupsen/logrus"
+	"github.com/urfave/cli"
+	"github.com/Loupric/runc"
+	"github.com/opencontainers/runtime-spec/specs-go"
 )
 
 const SD_LISTEN_FDS_START = 3

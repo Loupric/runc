@@ -3,7 +3,7 @@ package fs
 import (
 	"testing"
 
-	"github.com/opencontainers/runc/libcontainer/configs"
+	"github.com/Loupric/runc/configs"
 )
 
 func TestFreezerSetState(t *testing.T) {

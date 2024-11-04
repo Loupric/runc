@@ -7,10 +7,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/codegangsta/cli"
-	"github.com/opencontainers/runc/libcontainer"
-	"github.com/opencontainers/runc/libcontainer/configs"
-	"github.com/opencontainers/specs"
+	"github.com/urfave/cli"
+	"github.com/Loupric/runc"
+	"github.com/Loupric/runc/configs"
+	"github.com/opencontainers/runtime-spec/specs-go"
 )
 
 const wildcard = -1

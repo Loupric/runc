@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/opencontainers/runc/libcontainer/selinux"
+	"github.com/Loupric/runc/selinux"
 )
 
 var ErrIncompatibleLabel = fmt.Errorf("Bad SELinux option z and Z can not be used together")

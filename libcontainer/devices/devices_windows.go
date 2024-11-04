@@ -1,7 +1,7 @@
 package devices
 
 import (
-	"github.com/opencontainers/runc/libcontainer/configs"
+	"github.com/Loupric/runc/configs"
 )
 
 // TODO Windows. This can be factored out further - Devices are not supported
